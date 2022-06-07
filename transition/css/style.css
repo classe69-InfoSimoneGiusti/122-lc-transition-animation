@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transition: all 0.5s;
+}
+
+.square:hover {
+    background-color: blue;
+    border-radius: 50%;
+    width:400px;
+}
+
+.square:active {
+    background-color: yellow;
+}
